@@ -1,0 +1,68 @@
+.page-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10em;
+}
+
+.doutor{
+    width: 19em;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.adm{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    background-color:#E0FEE3;
+    margin-top: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 20em;  
+    height: 20em;
+}
+
+.logins{
+    display: flex;
+    flex-direction: row;
+}
+
+.font{
+    font-family: 'Sansita', sans-serif;
+}
+
+.font2{
+    font-family: 'Jomolhari', serif;
+    font-weight: 500;
+    color: #1A4E3C;
+}
+
+.botton{
+    text-decoration: none;
+    border: 1px solid #1A4E3C;
+    text-align: center;
+    padding: 9px;
+    width: 180px;
+    background-color: #1A4E3C;
+    color: white;
+}
+
+.bold{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,353 @@
+
+.Pagina-home {
+    *{
+        margin: 0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+
+    a, a:active, a:visited, a:link{
+        text-decoration: none;
+        display: inline-block;
+        color: inherit;
+    }
+
+    li{ 
+        list-style-type: none; 
+    }
+
+    
+
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        align-items:center ;
+        justify-content:space-between;
+        max-width:95%;
+    }
+    
+    .r-img{
+        width: 45vh ;
+    }
+    
+    .r-title{
+        font-family:"Jomolhari" ;
+        color:#1A4E3C;
+        font-size:2em;
+    }
+    
+    .r-button{
+        border-style: solid;
+        border-color:#1A4E3C;
+        background-color: #1A4E3C;
+        padding:0.5% 2% 0.5% 2% ;
+    }
+    
+    .b-text{
+        font-family: "Sansita";
+        color:white;
+    }
+
+    .br{
+        color:#E7E5E5;
+        background-color: #E7E5E5;
+        border-width: 0;
+        height: 0.6em;
+    }
+    
+    /*faixa1*/
+    
+    .f1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10vh;
+    }
+    .f1-cont{
+        display: flex;
+        flex-direction: column;
+        margin: 0vh 40vh 0vh 40vh;
+    }
+
+    .f1-top{
+        border-style: solid;
+        border-color:#1A4E3C;
+        background-color: #1A4E3C;
+        height: 1.5vh;
+        text-align: right;   
+    }
+    .f1-subcont{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+        padding:1vh;
+        margin: 3vh;
+    }
+    .f1-subcont-img{
+        width: 20vh;
+    }
+    .f1-subcont-text{
+        font-family: "Kreon";
+        font-size:2.1em;
+        line-height: 1em;
+    }
+    .f1-cont2{
+        display: flex;
+        flex-direction:row ;
+        align-items: center;
+        padding-right: 60vh;
+        margin: 0vh 20vh 0vh 20vh;
+    }
+    .f1-subcont2{
+        display: flex;
+        flex-direction: row;
+        background-color:#E0FEE3;
+        padding: 0em -10em 0em 0em;
+        margin:15vh 10vh 15vh 0vh;
+    }
+    .f1-subcont2-img{
+        margin: 2vh;
+        height: 20vh;
+        width: 30vh;
+    }
+    .f1-subcont2-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: "Sansita";
+        font-size:1.3em;
+        line-height: 1.1em;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 1vh;
+    }
+    .f1-button{
+        border-style:solid ;
+        border-radius: 10vh;
+        border-color:#1A4E3C ;
+        background-color: #1A4E3C;
+        padding:1vh 1vh 1vh 1vh;
+        margin-left: 16vh;
+        
+    }
+    .f1-b-text{
+        color:white;
+        font-family: "Sansita";
+        font-size: 2.5vh;
+        white-space: nowrap;
+        line-break: loose;
+    }
+    
+    /*faixa2*/
+    
+    .f2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding:13vh;
+        margin-bottom: 13vh;
+    }
+    .f2-title-1{
+        font-family: 'Crimson Pro';
+        padding:5vh 0vh 9vh 2vh;
+        color:white;
+        white-space: nowrap;
+        font-size: 4vh;
+    }
+    .f2-text-1{
+        font-family: "Crimson Pro";
+        color:white;
+        font-size:1em;
+    }
+    .f2-title{
+        font-family: 'Crimson Pro';
+        padding:3vh 0vh 9vh 2vh;
+        white-space: nowrap;
+    }
+    .f2-text{
+        font-family: "Crimson Pro";
+        font-size: 1.3em;
+    }
+    .f2-cont1{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        background-color: #E0FEE3;
+        padding:2vh;
+        width: 45vh;
+        height: 70vh;
+    
+        border-style: solid;
+        border-color: #E0FEE3;
+        border-radius: 2em;
+    }
+    .f2-cont2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-style: solid;
+        border-color: #1A4E3C;
+        border-radius: 2em;
+        background-color: #1A4E3C;
+        width: 45vh;
+        height: 70vh;
+    }
+    .f2-cont3{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        background-color: #E0FEE3;
+        width: 45vh;
+        height: 70vh;
+    
+        border-style: solid;
+        border-color: #E0FEE3;
+        border-radius: 2em;
+    }
+    
+    /*faixa03*/
+    
+    .faixa3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cont3{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2em;
+    }
+    
+    .solo-txt02{
+        font-family: "Sansita";
+        font-size: 1.8em;
+        text-align: center;
+        margin-top: 1.7em;
+        margin-left: 12em;
+        margin-right: 12em;
+    }
+    
+    .img-cont3{
+        height: 20em;
+        width: 20em;
+        margin-left:7em;
+    }
+    
+    .txt-cont3{
+        background-color: #E0FEE3;
+        font-family: "Kreon";
+        font-size: 1.7em;
+        padding: 0.8em;
+        margin-top: 2em;
+        margin-left: 3em;
+        margin-right: 6.5em;
+    }
+    
+    .cont3-1{
+        display:flex;
+        flex-direction:row;
+    }
+    
+    .txt-cont3-1{
+        background-color: #EDEBEB;
+        font-family: "Kreon";
+        font-size: 1.5em;
+        padding: 0.8em;
+        margin: 1em 8em 1em 6.5em;
+        
+    }
+    
+    .img-cont3-1{
+        height: 20em;
+        width: 20em;
+        margin-right: 9em;
+        margin-left: -9em;
+    }
+    
+    /*faixa04*/
+    
+    .faixa4{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 3em;
+    }
+    
+    .solo-txt4{
+        font-family: "Sansita";
+        margin:2em 13em;
+    }
+    
+    .cont4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding:1em;
+    }
+    
+    .img-cont4{
+        height: 20em ;
+        width: 2.5;
+        padding: 1em;
+    }
+    
+    .img2-cont4{
+        height:20em ;
+        width: 2.5;
+        padding: 1em;
+    }
+    
+    .solo-txt4-1{
+        font-family: 'sansita';
+        font-size: 1.6em;
+        margin:1.6em;
+    }
+    
+    /*faixa05*/
+    
+    .f5-hr{
+        color:#E7E5E5;
+        background-color: #E7E5E5;
+        border-width: 0;
+        height: 0.6em;
+    
+    }
+    .f5{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 13vh;
+    }
+    .f5-text1{
+        font-family: "Sansita" ;
+        padding: 5vh;
+    
+    }
+    .f5-text{
+        font-family: "Sansita";
+        padding: 2vh;
+    }
+    .f5-cont1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon-cont{
+        display: flex;
+        flex-direction: row;
+    }
+    .icon-img{
+        height: 6vh;
+    }
+    .f5-cont2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cont2-img{
+        width: 60vh;
+    }
+    
+
+}
