@@ -1,5 +1,5 @@
 import './index.scss';
-
+import { Link } from 'react-router-dom';
 
 export default function index() {
     return (
@@ -7,7 +7,9 @@ export default function index() {
              <div className="rodape">
             <img className='r-img' src="../assets/img/logo" alt=''/>
             <p className='r-title'>Psicológia em foco</p>
-            <a href="" className='r-button'><p className='b-text'>Área administrativa</p></a>
+                <Link to='../adm'>
+                <p className='b-text'>Área administrativa</p>
+                </Link>
         </div>
         <hr className='br'/>
 
