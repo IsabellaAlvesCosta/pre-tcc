@@ -9,7 +9,7 @@ export default function index() {
             <p className='r-title'>Psicológia em foco</p>
               
                  <a  class="botton" href="">
-                   <Link to='../adm'>  Área Admistrativa </Link>
+                   <Link to='./adm'>  Área Admistrativa </Link>
                     </a>
    
         </div>
