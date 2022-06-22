@@ -34,7 +34,7 @@ export default function index() {
                         <p className='subtext2'>Estefânia, 26 anos</p>
                     </div>
                 </div>
-                <a href="" className='f1-button'><p className='f1-b-text'>Agende sua consulta</p></a>
+                <a className='f1-button'><p className='f1-b-text'>Agende sua consulta</p></a>
             </div> 
 
         {/*faixa02 */}
