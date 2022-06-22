@@ -67,7 +67,7 @@ SELECT  ID_AGENDAMENTO,
                 DT_CONSULTA ,   
                 DS_TELEFONE,      
                 DS_SITUACAO  
-      FROM TB_AGENDAMENTO
+      FROM TB_AGENDAMENTO;
 
 -- confirmar consultas
 UPDATE TB_AGENDAMENTO
