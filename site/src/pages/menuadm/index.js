@@ -20,7 +20,9 @@ export default function index() {
                         <Link to= './solicitacoes'>Solicitação de Consultas </Link>
                      </a>
                         <p class="ou">ou</p>
-                    <a class="boton "href="">Visualizar Consultas</a>
+                    <a class="boton "href="">
+                       <Link to='./visuconsultas'> Visualizar Consultas </Link>
+                        </a>
                 </div>
 
                

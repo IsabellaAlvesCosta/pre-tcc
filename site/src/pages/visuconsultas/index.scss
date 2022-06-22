@@ -1,0 +1,74 @@
+h1{
+    color:#1A4E3C;
+    font-family: "jomolhari" ;
+}
+hr{
+    color:#E7E5E5;
+    background-color: #E7E5E5;
+    border-width: 0;
+    height: 0.6em;
+}
+p{
+    font-family: sansita;
+}
+.cont01{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.logo{
+    width: 30vh;
+    height: 10vh;
+}
+.button{
+    border-style: solid;
+    border-color:#1A4E3C;
+    background-color: #1A4E3C;
+    padding-bottom:3vh ;
+    text-align: center;
+    height: 5vh;
+    width: 30vh;
+}
+.B-text{
+
+    color: white;
+}
+.P-text{
+    text-align: center;
+}
+.tabela-consultas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E0FEE3;
+    margin-left: 67vh;
+    border-radius: 7vh;
+    padding-bottom:10vh ;
+    width: 60vh;
+}
+.T-subcont{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    background-color: white;
+    width: 50vh;
+}
+.value{
+    display: flex;
+    flex-direction: row;
+}
+.CH{
+    padding-left: 10vh;
+    
+}
+.text{
+    color: #585858;
+}
+
+.icon{
+    width: 5vh;
+}
+.F-text{
+    padding-left: 90vh;
+}
