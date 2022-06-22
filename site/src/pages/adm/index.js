@@ -33,7 +33,7 @@ export default function Index() {
         <header class="cabeçalho">
             <img src="../../assets/images/Captura de Tela (5).png" alt="" class="doutor"/>
             <h1 class="font2">Psicológia em foco</h1>
-            <a  class="botton" href="">Área Admistrativa</a>
+           
         </header>        
         <hr/>
 

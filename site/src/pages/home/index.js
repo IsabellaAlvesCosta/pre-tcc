@@ -7,9 +7,11 @@ export default function index() {
              <div className="rodape">
             <img className='r-img' src="../assets/img/logo" alt=''/>
             <p className='r-title'>Psicológia em foco</p>
-                <Link to='../adm'>
-                <p className='b-text'>Área administrativa</p>
-                </Link>
+              
+                 <a  class="botton" href="">
+                   <Link to='../adm'>  Área Admistrativa </Link>
+                    </a>
+   
         </div>
         <hr className='br'/>
 

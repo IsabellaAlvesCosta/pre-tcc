@@ -15,7 +15,7 @@ const resposta =  await login( email, senha);
 
 if(!resposta) {
 
-throw new Error('Creddenciais inválidas')
+throw new Error('Credenciais inválidas')
 
 }
 
