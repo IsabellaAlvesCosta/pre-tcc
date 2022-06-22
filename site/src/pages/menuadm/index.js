@@ -8,7 +8,7 @@ export default function index() {
         <header class="cabeçalho">
             
                 <h1 class="font2">Psicológia em foco</h1>
-            <a  class="botton" href="">Área Admistrativa</a>
+            
         </header>        
             <hr/>
             <br/>
@@ -21,7 +21,7 @@ export default function index() {
                      </a>
                         <p class="ou">ou</p>
                     <a class="boton "href="">
-                       <Link to='./visuconsultas'> Visualizar Consultas </Link>
+                       <Link to='/visuconsultas'> Visualizar Consultas </Link>
                         </a>
                 </div>
 

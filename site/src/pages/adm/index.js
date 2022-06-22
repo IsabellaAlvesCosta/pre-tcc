@@ -60,7 +60,7 @@ export default function Index() {
                         <input type= 'password'  placehouder ='***' class="caixa" value={senha} onChange={e => setSenha(e.target.value)}/>
                     </div>
                     <br/>
-                    <button class="bold " onClick={entrarClick} disabled={carregando}> <Link to ='./menuadm'>CONTINUAR</Link></button>
+                    <button class="bold " onClick={entrarClick} disabled={carregando}> <Link to ='/menuadm'>CONTINUAR</Link></button>
                     
    
 

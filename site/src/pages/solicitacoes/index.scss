@@ -1,0 +1,57 @@
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10em;
+}
+
+.pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solicitadas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    background-color: #E0FEE3;
+    width: 22em;
+    height: 21em;
+
+}
+.solicitada{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    
+}
+
+.paciente{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    width: 15em;
+    background-color:white;
+    
+}
+
+
+.confirmar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-left: 1em;
+    width: 13em;
+    
+}
+
+.voltar{
+    padding-top: 3em;
+}
