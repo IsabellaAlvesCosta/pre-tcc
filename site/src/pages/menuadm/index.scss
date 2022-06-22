@@ -1,0 +1,69 @@
+.page-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10em;
+}
+
+.doutor{
+    width: 16em;
+}
+
+.font2{
+    font-family: 'Jomolhari', serif;
+    font-weight: 400;
+    color: #1A4E3C;
+}
+
+.botton{
+    text-decoration: none;
+    border: 1px solid #1A4E3C;
+    text-align: center;
+    padding: 9px;
+    width: 180px;
+    background-color: #1A4E3C;
+    color: rgb(255, 255, 255);
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.button{
+    text-decoration: none;
+    border: 1px solid #E0FEE3;
+    text-align: center;
+    padding: 9px;
+    width: 180px;
+    background-color: #E0FEE3;
+    color: rgb(0, 0, 0);
+    font-family: 'Sansita', sans-serif;
+    padding: 18px;
+}
+
+.boton{
+    text-decoration: none;
+    border: 1px solid #1A4E3C;
+    text-align: center;
+    padding: 9px;
+    width: 180px;
+    background-color: #1A4E3C;
+    color: white;
+    padding: 18px;
+    font-family: 'Sansita', sans-serif;   
+}
+
+.ou{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+}

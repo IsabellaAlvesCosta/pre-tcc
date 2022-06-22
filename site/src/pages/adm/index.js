@@ -1,25 +1,32 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import './index.scss'
-import axios from 'axios'
-import { useNavigate } from 'react-router-dom';
+import { login } from '../../api/usuarioApi'
+import { Link, useNavigate } from 'react-router-dom';
+
 
 
 export default function Index() {
     const[email, setEmail] = useState('');
     const[senha, setSenha] = useState('');
     const[erro, setErro] = useState('');
+    const[carregando, setCarregando] = useState(false);
 
     const navigate = useNavigate();
+    const ref = useRef();
 
     async function entrarClick (){
+        ref.current.continuousStart();
+        setCarregando(true);
         try{
-            const r = await axios.post('http://localhost:5000/funcionario/login',{
-                 email:email,
-                 senha:senha
-                 } );
-                  navigate('/');
+            const r = await login(email,senha);
+                  setTimeout(( ) =>{
+                     navigate('./menuadm');
+                  }, 3000);
+                 
 
         }catch(err){
+            ref.current.complete();
+            setCarregando(false);
             if(err.response.status==401){
                 setErro(err.response.data.erro);
             }
@@ -29,6 +36,7 @@ export default function Index() {
 
     return (
         <main class="page-container">
+       
 
         <header class="cabeçalho">
             <img src="../../assets/images/Captura de Tela (5).png" alt="" class="doutor"/>
@@ -51,7 +59,10 @@ export default function Index() {
                         <input type= 'password'  placehouder ='***' class="caixa" value={senha} onChange={e => setSenha(e.target.value)}/>
                     </div>
                     <br/>
-                    <button class="bold " onClick={entrarClick}>CONTINUAR</button>
+                    <button class="bold " onClick={entrarClick} disabled={carregando}> <Link to ='./menuadm'>CONTINUAR</Link></button>
+                    
+   
+
                     <div>
                         {erro}
                     </div>
